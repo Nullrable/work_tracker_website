@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://worktracker.erp4.cn/sitemap.xml
