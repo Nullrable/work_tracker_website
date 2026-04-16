@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://worktracker.erp4.cn/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://worktracker.erp4.cn/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://worktracker.erp4.cn/zh.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://worktracker.erp4.cn/zh-TW.html"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://worktracker.erp4.cn/ja.html"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://worktracker.erp4.cn/ko.html"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://worktracker.erp4.cn/vi.html"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://worktracker.erp4.cn/id.html"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://worktracker.erp4.cn/ar.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://worktracker.erp4.cn/fr.html"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://worktracker.erp4.cn/de.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://worktracker.erp4.cn/es.html"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://worktracker.erp4.cn/pt.html"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://worktracker.erp4.cn/it.html"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://worktracker.erp4.cn/ru.html"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://worktracker.erp4.cn/th.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://worktracker.erp4.cn/"/>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
