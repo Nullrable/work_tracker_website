@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -i 's/<html lang=\"en\"/<html lang=\"ja\"/g' ja.html)",
+      "Bash(sed -i 's|<title>Work Hours Tracker - 工时记录APP | 时薪计算APP | 工时分析APP | 支持16种语言</title>|<title>Work Hours Tracker - 勤務時間記録APP | 時給計算APP | 労働時間分析APP | 16言語対応</title>|g' ja.html)",
+      "Bash(sed -i 's|找一款好用的工时记录APP？Work Hours Tracker 是您的理想选择。支持时薪计算、加班计算、工时分析，内置18国劳动法预设，支持16种语言。立即下载！|勤務時間記録APPをお探しですか？Work Hours Tracker をお勧めします。時給計算、残業計算、労働時間分析、18カ国の労働法プリセット、16言語対応。今すぐダウンロード！|g' ja.html)",
+      "Bash(sed -i 's|https://worktracker.erp4.cn/zh.html|https://worktracker.erp4.cn/ja.html|g' ja.html)",
+      "Bash(sed -i 's|href=\"https://worktracker.erp4.cn/?lang=ja\"|href=\"https://worktracker.erp4.cn/ja.html\"|g' ja.html)",
+      "Bash(sed -i 's/<html lang=\"en\"/<html lang=\"ko\"/g' ko.html)",
+      "Bash(sed -i 's|<title>Work Hours Tracker - 工时记录APP | 时薪计算APP | 工时分析APP | 支持16种语言</title>|<title>Work Hours Tracker - 근무시간 기록APP | 시급 계산APP | 근로시간 분석APP | 16개 언어 지원</title>|g' ko.html)",
+      "Bash(sed -i 's|找一款好用的工时记录APP？Work Hours Tracker 是您的理想选择。支持时薪计算、加班计算、工时分析，内置18国劳动法预设，支持16种语言。立即下载！|근무시간 기록APP을 찾고 계신가요？Work Hours Tracker 를 추천합니다. 시급 계산, 초과근무 계산, 근로시간 분석, 18개국 노동법 프리셋, 16개 언어 지원. 지금 바로 다운로드！|g' ko.html)",
+      "Bash(sed -i 's|https://worktracker.erp4.cn/zh.html|https://worktracker.erp4.cn/ko.html|g' ko.html)",
+      "Bash(sed -i 's|href=\"https://worktracker.erp4.cn/?lang=ko\"|href=\"https://worktracker.erp4.cn/ko.html\"|g' ko.html)",
+      "Bash(node -e ':*)",
+      "Bash(ls:*)",
+      "Bash(grep -l \"lang=\\\\\"zh\\\\\"\" C:/Users/nhsof/WebstormProjects/work_tracker_website/*.html)",
+      "Bash(grep -l \"lang=\\\\\"ja\\\\\"\" C:/Users/nhsof/WebstormProjects/work_tracker_website/*.html)",
+      "Bash(grep -l \"lang=\\\\\"ko\\\\\"\" C:/Users/nhsof/WebstormProjects/work_tracker_website/*.html)",
+      "Bash(head -n 1079 index.html)",
+      "Bash(echo '</body>')",
+      "Bash(echo '</html>')",
+      "Bash(mv temp.html index.html)",
+      "Bash(npx serve:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/zh.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/ar.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/ja.html)",
+      "Bash(curl:*)",
+      "Bash(pkill -f \"serve -p 3000\")",
+      "Bash(npx -y serve -p 3000)",
+      "Bash(pkill -f \"serve\")",
+      "Bash(npx -y serve -p 3000 -c 0)",
+      "Bash(netstat -ano)",
+      "Bash(curl -sL http://localhost:3000/zh.html)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
